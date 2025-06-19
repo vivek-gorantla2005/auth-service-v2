@@ -16,7 +16,7 @@ dotenv.config();
 connectMongoDB();
 
 // Connect to Redis
-const redis = new Redis(process.env.REDIS_URL);
+export const redis = new Redis(process.env.REDIS_URL);
 redis.on("connect", () => logger.warn("Connected to Redis"));
 redis.on("error", (err) => logger.error("Redis error:", err));
 
