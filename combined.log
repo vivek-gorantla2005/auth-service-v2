@@ -1,0 +1,775 @@
+{"level":"error","message":"Mongo connection error The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","service":"identity-service","stack":"MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n    at NativeConnection.createClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:237:11)\n    at NativeConnection.openUri (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\mongoose.js:450:15)\n    at file:///D:/Vivek/social-media-microservice/identity-service/src/server.js:13:10\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)\n    at async handleMainPromise (node:internal/modules/run_main:120:12)","timestamp":"2025-06-18T14:25:58.621Z"}
+{"level":"error","message":"Mongo connection error The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","service":"identity-service","stack":"MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n    at NativeConnection.createClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:237:11)\n    at NativeConnection.openUri (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\mongoose.js:450:15)\n    at file:///D:/Vivek/social-media-microservice/identity-service/src/server.js:13:10\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)\n    at async handleMainPromise (node:internal/modules/run_main:120:12)","timestamp":"2025-06-18T14:26:05.366Z"}
+{"level":"error","message":"Mongo connection error URI malformed","service":"identity-service","stack":"MongoParseError: URI malformed\n    at new ConnectionString (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb-connection-string-url\\lib\\index.js:102:23)\n    at parseOptions (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\connection_string.js:203:17)\n    at new MongoClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\mongo_client.js:65:61)\n    at NativeConnection.createClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:343:14)\n    at NativeConnection.openUri (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\mongoose.js:450:15)\n    at file:///D:/Vivek/social-media-microservice/identity-service/src/server.js:13:10\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)","timestamp":"2025-06-18T14:26:48.781Z"}
+{"level":"error","message":"Mongo connection error URI malformed","service":"identity-service","stack":"MongoParseError: URI malformed\n    at new ConnectionString (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb-connection-string-url\\lib\\index.js:102:23)\n    at parseOptions (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\connection_string.js:203:17)\n    at new MongoClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\mongo_client.js:65:61)\n    at NativeConnection.createClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:343:14)\n    at NativeConnection.openUri (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\mongoose.js:450:15)\n    at file:///D:/Vivek/social-media-microservice/identity-service/src/server.js:13:10\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)","timestamp":"2025-06-18T14:27:29.818Z"}
+{"level":"error","message":"Mongo connection error URI malformed","service":"identity-service","stack":"MongoParseError: URI malformed\n    at new ConnectionString (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb-connection-string-url\\lib\\index.js:102:23)\n    at parseOptions (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\connection_string.js:203:17)\n    at new MongoClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\mongo_client.js:65:61)\n    at NativeConnection.createClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:343:14)\n    at NativeConnection.openUri (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\mongoose.js:450:15)\n    at file:///D:/Vivek/social-media-microservice/identity-service/src/server.js:13:10\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)","timestamp":"2025-06-18T14:27:43.087Z"}
+{"level":"error","message":"Mongo connection error URI malformed","service":"identity-service","stack":"MongoParseError: URI malformed\n    at new ConnectionString (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb-connection-string-url\\lib\\index.js:102:23)\n    at parseOptions (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\connection_string.js:203:17)\n    at new MongoClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\mongo_client.js:65:61)\n    at NativeConnection.createClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:343:14)\n    at NativeConnection.openUri (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\mongoose.js:450:15)\n    at file:///D:/Vivek/social-media-microservice/identity-service/src/server.js:13:10\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)","timestamp":"2025-06-18T14:28:00.410Z"}
+{"level":"error","message":"Mongo connection error URI malformed","service":"identity-service","stack":"MongoParseError: URI malformed\n    at new ConnectionString (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb-connection-string-url\\lib\\index.js:102:23)\n    at parseOptions (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\connection_string.js:203:17)\n    at new MongoClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\mongo_client.js:65:61)\n    at NativeConnection.createClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:343:14)\n    at NativeConnection.openUri (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\mongoose.js:450:15)\n    at file:///D:/Vivek/social-media-microservice/identity-service/src/server.js:13:10\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)","timestamp":"2025-06-18T14:29:53.106Z"}
+{"level":"error","message":"Mongo connection error URI malformed","service":"identity-service","stack":"MongoParseError: URI malformed\n    at new ConnectionString (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb-connection-string-url\\lib\\index.js:102:23)\n    at parseOptions (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\connection_string.js:203:17)\n    at new MongoClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\mongo_client.js:65:61)\n    at NativeConnection.createClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:343:14)\n    at NativeConnection.openUri (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\mongoose.js:450:15)\n    at file:///D:/Vivek/social-media-microservice/identity-service/src/server.js:13:10\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)","timestamp":"2025-06-18T14:30:18.318Z"}
+{"level":"error","message":"Mongo connection error URI malformed","service":"identity-service","stack":"MongoParseError: URI malformed\n    at new ConnectionString (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb-connection-string-url\\lib\\index.js:102:23)\n    at parseOptions (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\connection_string.js:203:17)\n    at new MongoClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\mongo_client.js:65:61)\n    at NativeConnection.createClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:343:14)\n    at NativeConnection.openUri (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\mongoose.js:450:15)\n    at file:///D:/Vivek/social-media-microservice/identity-service/src/server.js:13:10\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)","timestamp":"2025-06-18T14:30:41.025Z"}
+{"level":"error","message":"Mongo connection error URI malformed","service":"identity-service","stack":"MongoParseError: URI malformed\n    at new ConnectionString (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb-connection-string-url\\lib\\index.js:102:23)\n    at parseOptions (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\connection_string.js:203:17)\n    at new MongoClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\mongo_client.js:65:61)\n    at NativeConnection.createClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:343:14)\n    at NativeConnection.openUri (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\mongoose.js:450:15)\n    at file:///D:/Vivek/social-media-microservice/identity-service/src/server.js:13:10\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)","timestamp":"2025-06-18T14:31:55.259Z"}
+{"level":"error","message":"Mongo connection error URI malformed","service":"identity-service","stack":"MongoParseError: URI malformed\n    at new ConnectionString (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb-connection-string-url\\lib\\index.js:102:23)\n    at parseOptions (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\connection_string.js:203:17)\n    at new MongoClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\mongo_client.js:65:61)\n    at NativeConnection.createClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:343:14)\n    at NativeConnection.openUri (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\mongoose.js:450:15)\n    at file:///D:/Vivek/social-media-microservice/identity-service/src/server.js:13:10\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)","timestamp":"2025-06-18T14:31:55.581Z"}
+{"level":"error","message":"Mongo connection error URI malformed","service":"identity-service","stack":"MongoParseError: URI malformed\n    at new ConnectionString (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb-connection-string-url\\lib\\index.js:102:23)\n    at parseOptions (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\connection_string.js:203:17)\n    at new MongoClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\mongo_client.js:65:61)\n    at NativeConnection.createClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:343:14)\n    at NativeConnection.openUri (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\mongoose.js:450:15)\n    at file:///D:/Vivek/social-media-microservice/identity-service/src/server.js:13:10\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)","timestamp":"2025-06-18T14:32:01.111Z"}
+{"level":"error","message":"Mongo connection error URI malformed","service":"identity-service","stack":"MongoParseError: URI malformed\n    at new ConnectionString (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb-connection-string-url\\lib\\index.js:102:23)\n    at parseOptions (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\connection_string.js:203:17)\n    at new MongoClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\mongo_client.js:65:61)\n    at NativeConnection.createClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:343:14)\n    at NativeConnection.openUri (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\mongoose.js:450:15)\n    at file:///D:/Vivek/social-media-microservice/identity-service/src/server.js:13:10\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)","timestamp":"2025-06-18T14:32:01.400Z"}
+{"level":"error","message":"Mongo connection error URI malformed","service":"identity-service","stack":"MongoParseError: URI malformed\n    at new ConnectionString (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb-connection-string-url\\lib\\index.js:102:23)\n    at parseOptions (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\connection_string.js:203:17)\n    at new MongoClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\mongo_client.js:65:61)\n    at NativeConnection.createClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:343:14)\n    at NativeConnection.openUri (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\mongoose.js:450:15)\n    at file:///D:/Vivek/social-media-microservice/identity-service/src/server.js:14:10\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)","timestamp":"2025-06-18T14:33:08.353Z"}
+{"level":"error","message":"Mongo connection error URI malformed","service":"identity-service","stack":"MongoParseError: URI malformed\n    at new ConnectionString (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb-connection-string-url\\lib\\index.js:102:23)\n    at parseOptions (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\connection_string.js:203:17)\n    at new MongoClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\mongo_client.js:65:61)\n    at NativeConnection.createClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:343:14)\n    at NativeConnection.openUri (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\mongoose.js:450:15)\n    at file:///D:/Vivek/social-media-microservice/identity-service/src/server.js:14:10\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)","timestamp":"2025-06-18T14:33:08.724Z"}
+{"level":"error","message":"Mongo connection error URI malformed","service":"identity-service","stack":"MongoParseError: URI malformed\n    at new ConnectionString (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb-connection-string-url\\lib\\index.js:102:23)\n    at parseOptions (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\connection_string.js:203:17)\n    at new MongoClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\mongo_client.js:65:61)\n    at NativeConnection.createClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:343:14)\n    at NativeConnection.openUri (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\mongoose.js:450:15)\n    at file:///D:/Vivek/social-media-microservice/identity-service/src/server.js:15:10\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)","timestamp":"2025-06-18T14:33:14.408Z"}
+{"level":"error","message":"Mongo connection error URI malformed","service":"identity-service","stack":"MongoParseError: URI malformed\n    at new ConnectionString (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb-connection-string-url\\lib\\index.js:102:23)\n    at parseOptions (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\connection_string.js:203:17)\n    at new MongoClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\mongo_client.js:65:61)\n    at NativeConnection.createClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:343:14)\n    at NativeConnection.openUri (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\mongoose.js:450:15)\n    at file:///D:/Vivek/social-media-microservice/identity-service/src/server.js:15:10\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)","timestamp":"2025-06-18T14:33:14.408Z"}
+{"level":"error","message":"Mongo connection error URI malformed","service":"identity-service","stack":"MongoParseError: URI malformed\n    at new ConnectionString (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb-connection-string-url\\lib\\index.js:102:23)\n    at parseOptions (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\connection_string.js:203:17)\n    at new MongoClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongodb\\lib\\mongo_client.js:65:61)\n    at NativeConnection.createClient (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:343:14)\n    at NativeConnection.openUri (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (D:\\Vivek\\social-media-microservice\\identity-service\\node_modules\\mongoose\\lib\\mongoose.js:450:15)\n    at file:///D:/Vivek/social-media-microservice/identity-service/src/server.js:15:10\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)","timestamp":"2025-06-18T14:33:29.874Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:34:54.006Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:35:24.715Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:35:24.715Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:35:35.368Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:35:37.832Z"}
+{"level":"info","message":"Received POST to /api/register","service":"identity-service","timestamp":"2025-06-18T14:38:09.030Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T14:38:09.032Z"}
+{"level":"info","message":"Register endpoint hit...","service":"identity-service","timestamp":"2025-06-18T14:38:09.034Z"}
+{"buffer":{"data":[104,82,207,81,243,38,147,197,48,160,25,74],"type":"Buffer"},"level":"warn","message":"user saved successfully","service":"identity-service","timestamp":"2025-06-18T14:38:09.478Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:39:07.043Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:39:07.044Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:39:13.445Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:39:22.629Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:39:49.230Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:39:55.369Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:40:09.415Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:40:14.626Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:40:38.158Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:43:36.606Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:44:24.032Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:44:57.363Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:46:02.627Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:46:11.540Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:46:41.100Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:46:49.732Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:46:55.550Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:47:05.368Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:47:13.459Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:47:24.928Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:47:36.814Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:50:00.380Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:50:05.596Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:50:13.999Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:50:40.192Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:50:48.307Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:50:56.259Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:51:02.439Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:51:36.878Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:52:01.833Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:52:23.288Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:53:53.212Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:54:16.595Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:54:20.796Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:54:29.195Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:54:48.034Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:54:58.993Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:55:20.086Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:55:30.439Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T14:55:36.675Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:05:46.365Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:05:46.364Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:05:47.828Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:05:47.828Z"}
+{"level":"info","message":"Received POST to /api/auth/register","service":"identity-service","timestamp":"2025-06-18T15:06:15.096Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:06:15.097Z"}
+{"level":"info","message":"Register endpoint hit...","service":"identity-service","timestamp":"2025-06-18T15:06:15.103Z"}
+{"buffer":{"data":[104,82,213,231,132,253,252,65,87,88,81,106],"type":"Buffer"},"level":"warn","message":"user saved successfully","service":"identity-service","timestamp":"2025-06-18T15:06:15.404Z"}
+{"level":"info","message":"Received POST to /api/auth/register","service":"identity-service","timestamp":"2025-06-18T15:06:29.324Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:06:29.325Z"}
+{"level":"info","message":"Register endpoint hit...","service":"identity-service","timestamp":"2025-06-18T15:06:29.327Z"}
+{"level":"warn","message":"test or test@gmail.com already exists","service":"identity-service","timestamp":"2025-06-18T15:06:29.509Z"}
+{"level":"info","message":"Received POST to /api/auth/register","service":"identity-service","timestamp":"2025-06-18T15:06:36.141Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:06:36.142Z"}
+{"level":"info","message":"Register endpoint hit...","service":"identity-service","timestamp":"2025-06-18T15:06:36.144Z"}
+{"level":"warn","message":"test or test@gmail.com already exists","service":"identity-service","timestamp":"2025-06-18T15:06:36.261Z"}
+{"level":"info","message":"Received POST to /api/auth/register","service":"identity-service","timestamp":"2025-06-18T15:06:46.473Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:06:46.475Z"}
+{"level":"info","message":"Register endpoint hit...","service":"identity-service","timestamp":"2025-06-18T15:06:46.477Z"}
+{"level":"warn","message":"test or test@gmail.com already exists","service":"identity-service","timestamp":"2025-06-18T15:06:46.519Z"}
+{"level":"info","message":"Received POST to /api/auth/register","service":"identity-service","timestamp":"2025-06-18T15:06:47.531Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:06:47.532Z"}
+{"level":"info","message":"Register endpoint hit...","service":"identity-service","timestamp":"2025-06-18T15:06:47.534Z"}
+{"level":"warn","message":"test or test@gmail.com already exists","service":"identity-service","timestamp":"2025-06-18T15:06:47.628Z"}
+{"level":"info","message":"Received POST to /api/auth/register","service":"identity-service","timestamp":"2025-06-18T15:06:48.803Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:06:48.804Z"}
+{"level":"info","message":"Register endpoint hit...","service":"identity-service","timestamp":"2025-06-18T15:06:48.805Z"}
+{"level":"warn","message":"test or test@gmail.com already exists","service":"identity-service","timestamp":"2025-06-18T15:06:48.857Z"}
+{"level":"info","message":"Received POST to /api/auth/register","service":"identity-service","timestamp":"2025-06-18T15:06:50.128Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:06:50.129Z"}
+{"level":"info","message":"Register endpoint hit...","service":"identity-service","timestamp":"2025-06-18T15:06:50.130Z"}
+{"level":"warn","message":"test or test@gmail.com already exists","service":"identity-service","timestamp":"2025-06-18T15:06:50.291Z"}
+{"level":"info","message":"Received POST to /api/auth/register","service":"identity-service","timestamp":"2025-06-18T15:06:51.395Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:06:51.395Z"}
+{"level":"info","message":"Register endpoint hit...","service":"identity-service","timestamp":"2025-06-18T15:06:51.396Z"}
+{"level":"warn","message":"test or test@gmail.com already exists","service":"identity-service","timestamp":"2025-06-18T15:06:51.488Z"}
+{"level":"info","message":"Received POST to /api/auth/register","service":"identity-service","timestamp":"2025-06-18T15:06:52.907Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:06:52.908Z"}
+{"level":"info","message":"Register endpoint hit...","service":"identity-service","timestamp":"2025-06-18T15:06:52.910Z"}
+{"level":"warn","message":"test or test@gmail.com already exists","service":"identity-service","timestamp":"2025-06-18T15:06:52.976Z"}
+{"level":"info","message":"Received POST to /api/auth/register","service":"identity-service","timestamp":"2025-06-18T15:06:56.029Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:06:56.030Z"}
+{"level":"info","message":"Register endpoint hit...","service":"identity-service","timestamp":"2025-06-18T15:06:56.031Z"}
+{"level":"warn","message":"test or test@gmail.com already exists","service":"identity-service","timestamp":"2025-06-18T15:06:56.074Z"}
+{"level":"info","message":"Received POST to /api/auth/register","service":"identity-service","timestamp":"2025-06-18T15:06:57.078Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:06:57.079Z"}
+{"level":"info","message":"Register endpoint hit...","service":"identity-service","timestamp":"2025-06-18T15:06:57.081Z"}
+{"level":"warn","message":"test or test@gmail.com already exists","service":"identity-service","timestamp":"2025-06-18T15:06:57.153Z"}
+{"level":"info","message":"Received POST to /api/auth/register","service":"identity-service","timestamp":"2025-06-18T15:06:58.045Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:06:58.045Z"}
+{"level":"info","message":"Register endpoint hit...","service":"identity-service","timestamp":"2025-06-18T15:06:58.046Z"}
+{"level":"warn","message":"test or test@gmail.com already exists","service":"identity-service","timestamp":"2025-06-18T15:06:58.086Z"}
+{"level":"info","message":"Received POST to /api/auth/register","service":"identity-service","timestamp":"2025-06-18T15:06:58.929Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:06:58.930Z"}
+{"level":"info","message":"Register endpoint hit...","service":"identity-service","timestamp":"2025-06-18T15:06:58.931Z"}
+{"level":"warn","message":"test or test@gmail.com already exists","service":"identity-service","timestamp":"2025-06-18T15:06:59.097Z"}
+{"level":"info","message":"Received POST to /api/auth/register","service":"identity-service","timestamp":"2025-06-18T15:07:00.012Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:07:00.012Z"}
+{"level":"info","message":"Register endpoint hit...","service":"identity-service","timestamp":"2025-06-18T15:07:00.013Z"}
+{"level":"warn","message":"test or test@gmail.com already exists","service":"identity-service","timestamp":"2025-06-18T15:07:00.071Z"}
+{"level":"info","message":"Received POST to /api/auth/register","service":"identity-service","timestamp":"2025-06-18T15:07:00.917Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:07:00.918Z"}
+{"level":"info","message":"Register endpoint hit...","service":"identity-service","timestamp":"2025-06-18T15:07:00.918Z"}
+{"level":"warn","message":"test or test@gmail.com already exists","service":"identity-service","timestamp":"2025-06-18T15:07:01.047Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:07:27.981Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:07:27.980Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:07:29.115Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:07:29.115Z"}
+{"level":"info","message":"Received POST to /api/auth/register","service":"identity-service","timestamp":"2025-06-18T15:07:31.229Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:07:31.230Z"}
+{"level":"info","message":"Register endpoint hit...","service":"identity-service","timestamp":"2025-06-18T15:07:31.235Z"}
+{"level":"warn","message":"test or test@gmail.com already exists","service":"identity-service","timestamp":"2025-06-18T15:07:31.327Z"}
+{"level":"info","message":"Received POST to /api/auth/register","service":"identity-service","timestamp":"2025-06-18T15:07:32.796Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:07:32.797Z"}
+{"level":"info","message":"Register endpoint hit...","service":"identity-service","timestamp":"2025-06-18T15:07:32.799Z"}
+{"level":"warn","message":"test or test@gmail.com already exists","service":"identity-service","timestamp":"2025-06-18T15:07:32.845Z"}
+{"level":"info","message":"Received POST to /api/auth/register","service":"identity-service","timestamp":"2025-06-18T15:07:34.305Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:07:34.306Z"}
+{"level":"info","message":"Register endpoint hit...","service":"identity-service","timestamp":"2025-06-18T15:07:34.308Z"}
+{"level":"warn","message":"test or test@gmail.com already exists","service":"identity-service","timestamp":"2025-06-18T15:07:34.427Z"}
+{"level":"info","message":"Received POST to /api/auth/register","service":"identity-service","timestamp":"2025-06-18T15:07:35.859Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:07:35.861Z"}
+{"level":"info","message":"Register endpoint hit...","service":"identity-service","timestamp":"2025-06-18T15:07:35.862Z"}
+{"level":"warn","message":"test or test@gmail.com already exists","service":"identity-service","timestamp":"2025-06-18T15:07:35.965Z"}
+{"level":"info","message":"Received POST to /api/auth/register","service":"identity-service","timestamp":"2025-06-18T15:07:37.641Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:07:37.641Z"}
+{"level":"info","message":"Register endpoint hit...","service":"identity-service","timestamp":"2025-06-18T15:07:37.643Z"}
+{"level":"warn","message":"test or test@gmail.com already exists","service":"identity-service","timestamp":"2025-06-18T15:07:37.704Z"}
+{"level":"info","message":"Received POST to /api/auth/register","service":"identity-service","timestamp":"2025-06-18T15:07:39.358Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:07:39.359Z"}
+{"level":"warn","message":"Sensitive endpoint rate limitting for IP ::1 exceeded","service":"identity-service","timestamp":"2025-06-18T15:07:39.360Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:07:54.062Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:07:54.063Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:07:55.322Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:07:55.322Z"}
+{"level":"info","message":"Received POST to /api/auth/register","service":"identity-service","timestamp":"2025-06-18T15:14:11.774Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:14:11.775Z"}
+{"level":"info","message":"Register endpoint hit...","service":"identity-service","timestamp":"2025-06-18T15:14:11.781Z"}
+{"buffer":{"data":[104,82,215,195,51,95,71,169,121,139,131,15],"type":"Buffer"},"level":"warn","message":"user saved successfully","service":"identity-service","timestamp":"2025-06-18T15:14:12.019Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:17:33.346Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:17:33.396Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:17:34.526Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:17:34.604Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:18:03.810Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:18:03.906Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:18:05.007Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:18:05.009Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:18:09.579Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:18:09.618Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:18:13.329Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:18:13.349Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:18:14.291Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:18:14.413Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:18:24.988Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:18:25.061Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:18:29.083Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:18:29.111Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:18:30.160Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:18:30.282Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:18:33.766Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:18:33.769Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:18:38.387Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:18:38.388Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:18:39.480Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:18:39.480Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:18:42.163Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:18:42.163Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:18:43.267Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:18:43.269Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:18:46.804Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:18:46.835Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:18:49.302Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:18:49.335Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:18:52.407Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:18:52.411Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:18:53.784Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:18:53.784Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:19:00.917Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:19:00.930Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:19:01.865Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:19:01.892Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:19:59.827Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:19:59.826Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:20:00.965Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:20:01.014Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:20:14.889Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:20:14.838Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:20:15.744Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:20:15.771Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:20:19.489Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:20:19.493Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:20:20.384Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:20:20.383Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:20:24.897Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:20:24.915Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:20:26.155Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:20:26.257Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:20:30.323Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:20:30.343Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:20:31.377Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:20:31.480Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:20:35.561Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:20:35.589Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:20:38.443Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:20:38.441Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:20:39.566Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:20:39.567Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:20:43.651Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:20:43.652Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:20:44.795Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:20:44.795Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:20:49.618Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:20:49.622Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:20:50.524Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:20:50.559Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:20:56.791Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:20:56.872Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:20:57.719Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:21:02.007Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:21:02.015Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:21:03.427Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:21:03.429Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:21:15.532Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:21:15.538Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:21:16.867Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:21:16.867Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:21:21.481Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:21:21.492Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:21:22.609Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:21:22.609Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:21:29.778Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:21:29.780Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:21:30.805Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:21:30.805Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:21:39.388Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:21:39.400Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:21:40.493Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:21:40.494Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:21:44.466Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:21:44.491Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:21:45.618Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:21:45.619Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:21:52.317Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:21:52.317Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:21:56.929Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:21:56.928Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:21:58.019Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-06-18T15:21:58.021Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:22:09.710Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:22:09.766Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:22:16.384Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:22:16.403Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:22:31.551Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:22:31.559Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:22:41.883Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:22:41.886Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-18T15:22:43.171Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-18T15:22:43.171Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:23:15.115Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:23:15.141Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-18T15:23:16.249Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-18T15:23:16.249Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:29:31.532Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:29:31.558Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-18T15:29:32.614Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-18T15:29:32.614Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-18T15:52:13.329Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-18T15:52:14.464Z"}
+{"level":"info","message":"Received POST to /api/register","service":"identity-service","timestamp":"2025-06-18T15:52:46.647Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:52:46.653Z"}
+{"level":"info","message":"Received POST to /api/register","service":"identity-service","timestamp":"2025-06-18T15:54:06.758Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:54:06.759Z"}
+{"level":"info","message":"Received POST to /api/register","service":"identity-service","timestamp":"2025-06-18T15:56:08.191Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:56:08.192Z"}
+{"level":"info","message":"Received POST to /api/register","service":"identity-service","timestamp":"2025-06-18T15:57:25.868Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-18T15:57:25.870Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T00:40:58.583Z"}
+{"level":"warn","message":"error connecting to mongoDB","service":"identity-service","timestamp":"2025-06-19T00:41:28.757Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T00:43:52.068Z"}
+{"level":"warn","message":"error connecting to mongoDB","service":"identity-service","timestamp":"2025-06-19T00:43:52.090Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T00:45:00.895Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T00:45:02.141Z"}
+{"level":"info","message":"Received POST to /register","service":"identity-service","timestamp":"2025-06-19T00:45:35.621Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-19T00:45:35.622Z"}
+{"level":"info","message":"Received POST to /register","service":"identity-service","timestamp":"2025-06-19T00:46:52.117Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-19T00:46:52.118Z"}
+{"level":"info","message":"Received POST to /register","service":"identity-service","timestamp":"2025-06-19T00:50:00.442Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-19T00:50:00.443Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T00:50:18.888Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T00:50:19.869Z"}
+{"level":"info","message":"Received POST to /register","service":"identity-service","timestamp":"2025-06-19T00:50:24.771Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-19T00:50:24.772Z"}
+{"level":"info","message":"Received POST to /register","service":"identity-service","timestamp":"2025-06-19T00:51:22.782Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-19T00:51:22.784Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T00:52:08.681Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T00:52:09.742Z"}
+{"level":"info","message":"Received POST to /api/register","service":"identity-service","timestamp":"2025-06-19T00:52:25.786Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-19T00:52:25.789Z"}
+{"level":"info","message":"identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T00:54:00.680Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T00:54:01.618Z"}
+{"level":"info","message":"Received POST to /api/auth//register","service":"identity-service","timestamp":"2025-06-19T00:55:31.713Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-19T00:55:31.715Z"}
+{"level":"info","message":"Received POST to /api/auth/register","service":"identity-service","timestamp":"2025-06-19T00:55:45.652Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-19T00:55:45.653Z"}
+{"level":"info","message":"Register endpoint hit...","service":"identity-service","timestamp":"2025-06-19T00:55:45.660Z"}
+{"buffer":{"data":[104,83,96,17,191,184,61,143,170,63,189,124],"type":"Buffer"},"level":"warn","message":"user saved successfully","service":"identity-service","timestamp":"2025-06-19T00:55:46.123Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T03:40:00.547Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T03:40:17.470Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T03:40:33.774Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T03:40:46.227Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T03:40:49.925Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T03:41:01.072Z"}
+{"level":"warn","message":"connect to redis","service":"identity-service","timestamp":"2025-06-19T03:41:01.151Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T03:41:08.154Z"}
+{"level":"warn","message":"connect to redis","service":"identity-service","timestamp":"2025-06-19T03:41:08.185Z"}
+{"level":"warn","message":"error connecting to mongoDB","service":"identity-service","timestamp":"2025-06-19T03:41:40.377Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T03:42:22.815Z"}
+{"level":"warn","message":"connect to redis","service":"identity-service","timestamp":"2025-06-19T03:42:22.851Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T03:42:24.209Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T03:46:50.809Z"}
+{"level":"warn","message":"connect to redis","service":"identity-service","timestamp":"2025-06-19T03:46:50.837Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T03:46:52.614Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T03:47:04.254Z"}
+{"level":"warn","message":"connect to redis","service":"identity-service","timestamp":"2025-06-19T03:47:04.283Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T03:47:07.538Z"}
+{"level":"warn","message":"connect to redis","service":"identity-service","timestamp":"2025-06-19T03:47:07.569Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T03:47:08.792Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T03:47:16.102Z"}
+{"level":"warn","message":"connect to redis","service":"identity-service","timestamp":"2025-06-19T03:47:16.236Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T03:47:17.400Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T03:47:20.923Z"}
+{"level":"warn","message":"connect to redis","service":"identity-service","timestamp":"2025-06-19T03:47:20.979Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T03:47:22.207Z"}
+{"level":"info","message":"🚀 Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T03:48:38.917Z"}
+{"level":"warn","message":"✅ Connected to Redis","service":"identity-service","timestamp":"2025-06-19T03:48:38.945Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T03:48:44.396Z"}
+{"level":"warn","message":"✅ Connected to Redis","service":"identity-service","timestamp":"2025-06-19T03:48:44.452Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T03:48:46.805Z"}
+{"level":"warn","message":"✅ Connected to Redis","service":"identity-service","timestamp":"2025-06-19T03:48:46.911Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T03:48:50.118Z"}
+{"level":"warn","message":"✅ Connected to Redis","service":"identity-service","timestamp":"2025-06-19T03:48:50.153Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T03:48:51.508Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T03:48:59.038Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T03:48:59.066Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T03:49:00.413Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T03:50:07.719Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T03:50:07.744Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T03:50:11.177Z"}
+{"level":"info","message":"Received POST to /api/auth/register","service":"identity-service","timestamp":"2025-06-19T03:51:30.075Z"}
+{"level":"info","message":"Request body, {\"username\":\"test10\",\"email\":\"test10@gmail.com\",\"password\":\"test10\"}","service":"identity-service","timestamp":"2025-06-19T03:51:30.077Z"}
+{"level":"info","message":"Register endpoint hit...","service":"identity-service","timestamp":"2025-06-19T03:51:30.093Z"}
+{"buffer":{"data":[104,83,137,66,172,86,150,241,34,135,27,66],"type":"Buffer"},"level":"warn","message":"user saved successfully","service":"identity-service","timestamp":"2025-06-19T03:51:30.436Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T03:53:56.200Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T03:53:56.316Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T03:53:57.388Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T03:54:03.717Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T03:54:03.850Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T03:54:04.713Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:05:04.142Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:05:04.317Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:05:07.176Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:05:07.282Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:05:08.239Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:05:32.171Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:05:32.224Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:05:39.987Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:06:09.495Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:06:09.524Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:06:14.476Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:06:14.521Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:06:15.930Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:06:29.809Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:06:29.906Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:06:46.259Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:06:46.384Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:06:49.676Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:06:49.707Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:06:50.955Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:07:13.065Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:07:13.091Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:07:14.607Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:07:21.777Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:07:21.891Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:07:23.108Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:07:35.980Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:07:36.012Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:07:37.241Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:07:50.947Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:07:51.141Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:07:52.402Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:08:05.930Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:08:05.963Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:08:07.143Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:08:13.146Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:08:13.280Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:08:14.208Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:08:41.352Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:08:41.465Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:08:42.375Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:08:51.058Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:08:51.092Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:08:52.202Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:08:55.216Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:08:55.242Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:08:56.400Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:09:17.669Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:09:17.810Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:09:18.851Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:09:31.755Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:09:31.778Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:09:33.060Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:09:36.666Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:09:36.715Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:09:52.531Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:09:52.635Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:10:16.614Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:10:16.641Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:10:29.698Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:10:29.724Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:10:31.840Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:10:48.262Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:10:48.296Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:10:51.095Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:11:04.569Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:11:04.604Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:11:08.092Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:11:14.591Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:11:14.623Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:11:21.408Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:11:27.345Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:11:27.480Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:11:29.700Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:11:41.474Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:11:41.512Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:11:46.468Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:11:55.488Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:11:55.517Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:12:00.255Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:12:00.285Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:12:06.855Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:12:07.026Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:12:07.997Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:12:32.714Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:12:32.793Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:13:17.918Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:13:17.948Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:13:25.293Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:13:25.323Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:13:30.451Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:13:30.495Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:13:46.487Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:13:46.660Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:13:47.770Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:13:50.492Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:13:50.522Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:13:51.476Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:13:57.226Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:13:57.355Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:13:58.287Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:14:20.119Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:14:20.243Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:14:21.437Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:14:47.374Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:14:47.504Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:14:48.569Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:14:55.230Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:14:55.264Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:14:56.588Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:15:03.976Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:15:04.014Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:15:05.055Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:15:08.203Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:15:08.334Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:15:09.080Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:15:14.682Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:15:14.722Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:15:16.120Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:15:19.471Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:15:19.602Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:15:20.519Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:15:29.334Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:15:29.468Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:15:30.557Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:15:56.104Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:15:56.136Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:15:57.183Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:16:01.497Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:16:01.630Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:16:03.529Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:16:26.642Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:16:26.812Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:16:27.799Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:16:34.100Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:16:34.217Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:16:35.481Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:16:42.451Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:16:42.491Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:16:43.468Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:16:51.794Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:16:51.911Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:16:52.939Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:16:55.967Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:16:56.001Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:16:57.395Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:17:46.444Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:17:46.586Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:17:47.368Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:18:14.773Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:18:14.953Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:18:15.733Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:22:22.397Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:22:22.422Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:22:23.651Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-19T04:23:25.720Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-19T04:23:25.723Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-19T04:23:25.754Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-19T04:23:44.517Z"}
+{"level":"info","message":"Request body, {\"username\":\"test10\",\"email\":\"test10@gmail.com\",\"password\":\"test10\"}","service":"identity-service","timestamp":"2025-06-19T04:23:44.518Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-19T04:23:44.532Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:47:17.872Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:47:17.983Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:47:18.935Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:47:45.996Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:47:46.265Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:47:47.405Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:47:52.056Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:47:52.177Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:47:53.143Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:48:22.874Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:48:22.912Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:48:24.015Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:48:38.095Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:48:38.202Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:48:39.221Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:48:44.827Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:48:44.856Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:48:46.085Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:48:53.436Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:48:53.641Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:48:54.581Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:49:02.149Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:49:02.220Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:49:03.491Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:49:21.178Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:49:21.202Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:49:22.333Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:49:49.278Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:49:49.403Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:49:50.321Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:49:53.120Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:49:53.240Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:49:54.159Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:50:01.848Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:50:01.989Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:50:02.871Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:50:11.693Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:50:11.815Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:50:12.719Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:50:18.431Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:50:18.461Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:50:34.414Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:50:34.444Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:50:35.430Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:50:41.822Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:50:41.942Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:50:44.201Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:50:44.236Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:50:45.280Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:50:48.483Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:50:48.512Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:50:49.890Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:51:10.370Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:51:10.407Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:51:11.496Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:51:25.106Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:51:25.138Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:51:26.345Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:51:31.072Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:51:31.200Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:51:32.317Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:52:18.144Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:52:18.174Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:52:19.392Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:52:25.123Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:52:25.149Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:52:29.090Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:52:29.122Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:52:30.354Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:52:39.266Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:52:39.383Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:52:40.383Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:52:55.309Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:52:55.341Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:52:58.936Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:52:59.054Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:52:59.943Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:53:25.863Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:53:25.892Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:53:27.129Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:53:29.954Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:53:29.985Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:53:31.177Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:53:34.014Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:53:34.046Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:53:35.072Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:53:38.797Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:53:38.838Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:53:44.812Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:53:44.942Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:53:45.922Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:55:55.264Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:55:55.373Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:55:56.698Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:56:00.487Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:56:00.528Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:56:01.609Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:56:16.484Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:56:16.700Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:56:19.562Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:56:19.595Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:56:20.659Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:56:38.890Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:56:39.016Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:56:39.907Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T04:57:05.890Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T04:57:05.934Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T04:57:07.249Z"}
+{"level":"info","message":"Received POST to /api/auth/refresh_token","service":"identity-service","timestamp":"2025-06-19T04:58:37.056Z"}
+{"level":"info","message":"Request body, {\"refreshToken\":\"8c1da297b6e1c1992bae4d508bda6ade1e1af401030553b18b86dc0921f85d9f6f32a37814d93c16\"}","service":"identity-service","timestamp":"2025-06-19T04:58:37.059Z"}
+{"level":"info","message":"refresh token endpoint hit","service":"identity-service","timestamp":"2025-06-19T04:58:37.088Z"}
+{"level":"warn","message":"Refresh token not found in DB","service":"identity-service","timestamp":"2025-06-19T04:58:37.165Z"}
+{"level":"info","message":"Received POST to /api/auth/refresh_token","service":"identity-service","timestamp":"2025-06-19T04:59:27.798Z"}
+{"level":"info","message":"Request body, {\"refreshToken\":\"c53e53e6873c347efb93333e863c3a495f2378a7ced5ffa480f45aaf4559abac\"}","service":"identity-service","timestamp":"2025-06-19T04:59:27.799Z"}
+{"level":"info","message":"refresh token endpoint hit","service":"identity-service","timestamp":"2025-06-19T04:59:27.811Z"}
+{"level":"info","message":"Refresh token replaced successfully","service":"identity-service","timestamp":"2025-06-19T04:59:28.053Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T05:00:52.984Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T05:00:53.024Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T05:00:54.282Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T05:01:00.398Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T05:01:00.433Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T05:01:01.862Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T05:02:01.043Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T05:02:01.168Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T05:02:02.633Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T05:02:11.414Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T05:02:11.557Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T05:02:12.444Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T05:02:30.038Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T05:02:30.068Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T05:02:31.189Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T05:02:42.401Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T05:02:42.539Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T05:02:43.140Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T05:03:04.591Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T05:03:04.709Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T05:03:05.435Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T05:03:45.628Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T05:03:45.777Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T05:03:50.798Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T05:03:50.983Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T05:03:51.956Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T05:03:59.647Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T05:03:59.682Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T05:04:00.762Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T05:04:09.706Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T05:04:09.983Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T05:04:12.470Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T05:04:12.606Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T05:04:13.666Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T05:04:29.789Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T05:04:29.910Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T05:04:30.765Z"}
+{"level":"info","message":"Received POST to /api/auth/logout","service":"identity-service","timestamp":"2025-06-19T05:04:40.220Z"}
+{"level":"info","message":"Request body, {\"refreshToken\":\"c53e53e6873c347efb93333e863c3a495f2378a7ced5ffa480f45aaf4559abac\"}","service":"identity-service","timestamp":"2025-06-19T05:04:40.221Z"}
+{"level":"info","message":"Logout endpoint hit","service":"identity-service","timestamp":"2025-06-19T05:04:40.248Z"}
+{"level":"warn","message":"Refresh token not found or already invalidated","service":"identity-service","timestamp":"2025-06-19T05:04:40.390Z"}
+{"level":"info","message":"Received POST to /api/auth/logout","service":"identity-service","timestamp":"2025-06-19T05:05:24.432Z"}
+{"level":"info","message":"Request body, {\"refreshToken\":\"de63dc157f961402fb6d579fc01d481f07330967c497d3b32f869850a28ce25e22fb62c8dc2c9d6e\"}","service":"identity-service","timestamp":"2025-06-19T05:05:24.432Z"}
+{"level":"info","message":"Logout endpoint hit","service":"identity-service","timestamp":"2025-06-19T05:05:24.441Z"}
+{"level":"info","message":"User logged out successfully","service":"identity-service","timestamp":"2025-06-19T05:05:24.478Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T05:06:51.380Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T05:06:51.486Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T05:06:52.801Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-19T05:09:43.738Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-19T05:09:43.739Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-19T05:09:43.749Z"}
+{"level":"info","message":"Received POST to /api/auth/logout","service":"identity-service","timestamp":"2025-06-19T05:10:34.663Z"}
+{"level":"info","message":"Request body, {\"refreshToken\":\"ec70f80c1959085432582dffd4710ff7c08cfbfbf759643b89a890ad42895b445fbe2d7b7aa0dc19\"}","service":"identity-service","timestamp":"2025-06-19T05:10:34.664Z"}
+{"level":"info","message":"Logout endpoint hit","service":"identity-service","timestamp":"2025-06-19T05:10:34.679Z"}
+{"level":"warn","message":"Refresh token not found or already invalidated","service":"identity-service","timestamp":"2025-06-19T05:10:34.811Z"}
+{"level":"info","message":"Received POST to /api/auth/logout","service":"identity-service","timestamp":"2025-06-19T05:10:49.410Z"}
+{"level":"info","message":"Request body, {\"refreshToken\":\"42eea1ad8f9db3f896f675143b621411a4280e169026b63e2571efad538c693a\"}","service":"identity-service","timestamp":"2025-06-19T05:10:49.411Z"}
+{"level":"info","message":"Logout endpoint hit","service":"identity-service","timestamp":"2025-06-19T05:10:49.420Z"}
+{"level":"info","message":"User logged out successfully","service":"identity-service","timestamp":"2025-06-19T05:10:49.455Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T05:24:51.374Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:24:51.536Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:24:51.649Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:24:51.752Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:24:51.906Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:24:52.111Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:24:52.371Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:24:52.680Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:24:53.034Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T05:24:53.083Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:24:53.438Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:24:53.894Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:24:54.400Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:24:54.955Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:24:55.560Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:24:56.214Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:24:56.919Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:24:57.673Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:24:58.479Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:24:59.333Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:00.237Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:01.189Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:02.193Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:03.247Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:04.352Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:05.505Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:06.709Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:07.966Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T05:25:14.061Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:14.225Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:14.284Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:14.388Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:14.542Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:14.747Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:15.002Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T05:25:15.296Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:15.334Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:15.694Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:16.100Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:16.554Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:17.060Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:17.613Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:18.218Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:18.872Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:19.576Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:20.334Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:21.138Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"service":"identity-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2025-06-19T05:25:21.992Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T05:31:14.234Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T05:31:14.471Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T05:31:15.768Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-19T05:31:54.122Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-19T05:31:54.123Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-19T05:31:54.145Z"}

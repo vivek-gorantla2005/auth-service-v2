@@ -1,0 +1,26 @@
+# Node modules
+node_modules
+npm-debug.log
+
+# dotenv files (secrets)
+.env
+.env.*          
+
+# Build/output artifacts
+dist
+build
+
+# IDE/editor folders
+.vscode
+.idea
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs
+
+# Docker-specific artifacts
+docker-compose.override.yml
