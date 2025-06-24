@@ -950,3 +950,147 @@
 {"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T06:28:48.134Z"}
 {"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T06:28:48.186Z"}
 {"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T06:28:49.873Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T16:02:17.383Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T16:02:17.428Z"}
+{"level":"warn","message":"error connecting to mongoDB","service":"identity-service","timestamp":"2025-06-19T16:02:47.654Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-19T16:03:12.168Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-19T16:03:12.208Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-19T16:03:13.712Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-19T16:03:22.499Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-19T16:03:22.500Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-19T16:03:22.522Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-21T04:58:12.136Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-21T04:58:12.263Z"}
+{"level":"warn","message":"error connecting to mongoDB","service":"identity-service","timestamp":"2025-06-21T04:58:42.266Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-21T04:59:05.103Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-21T04:59:05.238Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-21T04:59:06.444Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-21T04:59:58.697Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-21T04:59:58.699Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-21T04:59:58.712Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-21T05:05:02.069Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-21T05:05:02.070Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-21T05:05:02.100Z"}
+{"level":"info","message":"User found in Redis: 6852cf51f32693c530a0194a","service":"identity-service","timestamp":"2025-06-21T05:05:02.109Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-21T05:20:41.996Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-21T05:20:42.000Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-21T05:20:42.011Z"}
+{"level":"info","message":"User found in Redis: 6852cf51f32693c530a0194a","service":"identity-service","timestamp":"2025-06-21T05:20:42.026Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-21T05:36:20.274Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-21T05:36:20.275Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-21T05:36:20.302Z"}
+{"level":"info","message":"User found in Redis: 6852cf51f32693c530a0194a","service":"identity-service","timestamp":"2025-06-21T05:36:20.308Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-21T05:52:00.081Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-21T05:52:00.084Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-21T05:52:00.116Z"}
+{"level":"info","message":"User found in Redis: 6852cf51f32693c530a0194a","service":"identity-service","timestamp":"2025-06-21T05:52:00.123Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-22T04:02:20.228Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-22T04:02:20.260Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-22T04:02:21.818Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-22T04:02:39.492Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-22T04:02:39.494Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-22T04:02:39.534Z"}
+{"level":"info","message":"User found in Redis: 6852cf51f32693c530a0194a","service":"identity-service","timestamp":"2025-06-22T04:02:39.548Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-22T04:05:31.187Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-22T04:05:31.188Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-22T04:05:31.222Z"}
+{"level":"info","message":"User found in Redis: 6852cf51f32693c530a0194a","service":"identity-service","timestamp":"2025-06-22T04:05:31.231Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-22T04:22:01.453Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-22T04:22:01.456Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-22T04:22:01.484Z"}
+{"level":"info","message":"User found in Redis: 6852cf51f32693c530a0194a","service":"identity-service","timestamp":"2025-06-22T04:22:01.494Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-22T04:25:26.826Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-22T04:25:26.826Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-22T04:25:26.843Z"}
+{"level":"info","message":"User found in Redis: 6852cf51f32693c530a0194a","service":"identity-service","timestamp":"2025-06-22T04:25:26.849Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-22T04:43:52.263Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-22T04:43:52.263Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-22T04:43:52.270Z"}
+{"level":"info","message":"User found in Redis: 6852cf51f32693c530a0194a","service":"identity-service","timestamp":"2025-06-22T04:43:52.277Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-22T04:45:57.144Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-22T04:45:57.150Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-22T04:45:57.160Z"}
+{"level":"info","message":"User found in Redis: 6852cf51f32693c530a0194a","service":"identity-service","timestamp":"2025-06-22T04:45:57.166Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-22T04:53:36.491Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-22T04:53:36.493Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-22T04:53:36.502Z"}
+{"level":"info","message":"User found in Redis: 6852cf51f32693c530a0194a","service":"identity-service","timestamp":"2025-06-22T04:53:36.511Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-22T05:12:51.891Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-22T05:12:51.894Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-22T05:12:51.903Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-22T05:29:51.415Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-22T05:29:51.417Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-22T05:29:51.426Z"}
+{"level":"info","message":"User found in Redis: 6852cf51f32693c530a0194a","service":"identity-service","timestamp":"2025-06-22T05:29:51.433Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-22T05:30:14.126Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-22T05:30:14.127Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-22T05:30:14.132Z"}
+{"level":"info","message":"User found in Redis: 6852cf51f32693c530a0194a","service":"identity-service","timestamp":"2025-06-22T05:30:14.139Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-22T14:49:25.959Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-22T14:49:25.987Z"}
+{"level":"warn","message":"error connecting to mongoDB","service":"identity-service","timestamp":"2025-06-22T14:49:56.119Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-22T14:50:59.098Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-22T14:50:59.276Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-22T14:51:00.452Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-22T14:52:00.826Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-22T14:52:00.857Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-22T14:52:02.611Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-22T14:52:22.438Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-22T14:52:22.440Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-22T14:52:22.488Z"}
+{"level":"info","message":"User found in Redis: 6852cf51f32693c530a0194a","service":"identity-service","timestamp":"2025-06-22T14:52:22.499Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-23T05:43:35.956Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-23T05:43:35.987Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-23T05:43:37.374Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-23T05:44:26.517Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-23T05:44:26.518Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-23T05:44:26.546Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-23T05:49:40.676Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-23T05:49:40.677Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-23T05:49:40.688Z"}
+{"level":"info","message":"User found in Redis: 6852cf51f32693c530a0194a","service":"identity-service","timestamp":"2025-06-23T05:49:40.699Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-23T06:20:31.361Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-23T06:20:31.363Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-23T06:20:31.381Z"}
+{"level":"info","message":"User found in Redis: 6852cf51f32693c530a0194a","service":"identity-service","timestamp":"2025-06-23T06:20:31.396Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-23T06:35:45.447Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-23T06:35:45.454Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-23T06:35:45.490Z"}
+{"level":"info","message":"User found in Redis: 6852cf51f32693c530a0194a","service":"identity-service","timestamp":"2025-06-23T06:35:45.515Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-23T06:40:52.400Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-23T06:40:52.401Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-23T06:40:52.407Z"}
+{"level":"info","message":"User found in Redis: 6852cf51f32693c530a0194a","service":"identity-service","timestamp":"2025-06-23T06:40:52.416Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-23T06:52:56.092Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-23T06:52:56.120Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-23T06:52:56.128Z"}
+{"level":"info","message":"User found in Redis: 6852cf51f32693c530a0194a","service":"identity-service","timestamp":"2025-06-23T06:52:56.137Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-23T07:03:22.914Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-23T07:03:22.919Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-23T07:03:22.941Z"}
+{"level":"info","message":"User found in Redis: 6852cf51f32693c530a0194a","service":"identity-service","timestamp":"2025-06-23T07:03:22.951Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-23T15:04:05.578Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-23T15:04:05.611Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-23T15:04:07.035Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-23T15:04:10.190Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-23T15:04:10.191Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-23T15:04:10.207Z"}
+{"level":"info","message":"User found in Redis: 6852cf51f32693c530a0194a","service":"identity-service","timestamp":"2025-06-23T15:04:10.223Z"}
+{"level":"info","message":"Received POST to /api/auth/login","service":"identity-service","timestamp":"2025-06-23T15:14:45.950Z"}
+{"level":"info","message":"Request body, {\"email\":\"vivek@gmail.com\",\"password\":\"vivek123\"}","service":"identity-service","timestamp":"2025-06-23T15:14:45.956Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-06-23T15:14:45.992Z"}
+{"level":"info","message":"User found in Redis: 6852cf51f32693c530a0194a","service":"identity-service","timestamp":"2025-06-23T15:14:46.007Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-24T02:09:06.470Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-24T02:09:06.682Z"}
+{"level":"warn","message":"error connecting to mongoDB","service":"identity-service","timestamp":"2025-06-24T02:09:36.621Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-24T02:10:15.323Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-24T02:10:15.676Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-02.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-24T02:10:17.498Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-24T02:16:44.339Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-24T02:16:44.673Z"}
+{"level":"info","message":"Received GET to /","service":"identity-service","timestamp":"2025-06-24T02:16:45.727Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-06-24T02:16:45.729Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-01.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-24T02:16:45.961Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-24T02:24:01.570Z"}
+{"level":"warn","message":"Connected to Redis","service":"identity-service","timestamp":"2025-06-24T02:24:01.770Z"}
+{"level":"warn","message":"connected to DB : ac-frlprd1-shard-00-00.aw89zen.mongodb.net","service":"identity-service","timestamp":"2025-06-24T02:24:02.293Z"}

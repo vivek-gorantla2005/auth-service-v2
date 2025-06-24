@@ -24,7 +24,7 @@ redis.on("error", (err) => logger.error("Redis error:", err));
 const app = express();
 const port = process.env.PORT || 3001;
 
-// 💡 Express-based rate limiter for general web abuse (non-Redis, memory-based)
+// Express-based rate limiter for general web abuse (non-Redis, memory-based)
 const expressRateLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
   limit: 100,

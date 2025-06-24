@@ -12,28 +12,5 @@ services:
       - "${PORT}:${PORT}"   
     env_file:
       - .env                
-    environment:
-      - REDIS_URL=redis://redis:6379
-    depends_on:
-      - mongo
-      - redis
 
-  mongo:
-    image: mongo:6
-    container_name: auth-service-mongoDB
-    ports:
-      - "27017:27017"
-    volumes:
-      - mongo_data:/data/db
 
-  redis:
-    image: redis:6
-    container_name: auth-service-redis
-    ports:
-      - "6370:6370"
-    volumes:
-      - redis_data:/data
-
-volumes:
-  mongo_data:
-  redis_data:
